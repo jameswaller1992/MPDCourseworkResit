@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- James Waller S1827990 -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentscreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Glasgow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Glasgow"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/London"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="London"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/NewYork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New York"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/Oman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oman"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/Mauritius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mauritius"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/Bangladesh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bangladesh"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/urlInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Platform Coursework Resit Attempt"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</ScrollView>
